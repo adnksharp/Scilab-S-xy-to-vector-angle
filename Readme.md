@@ -8,7 +8,7 @@ tomando en cuenta una variación de ```180°``` o ```360°``` para cuando los va
 
 ### Ejemplo de uso
 ```Octave
-exec ('xylocate.sci.sci', -1)
+exec ('xylocate.sci', -1)
 
 --> [v, a] = cart(%pi, 2)
  v  =
