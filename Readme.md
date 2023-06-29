@@ -1,15 +1,20 @@
 # Radio y θ
 
-Obtener el valor del radio y el ángulo dadas las coordenadas cartesianas de un punto.
+Obtener el valor del radio y el ángulo dadas las coordenadas cartesianas $x$ y $y$ usando en base la ecuación:
 
-```
-Calculo de radio y ángulo en 2 dimensiones
+$atan \left( {x \over y} \right) * {180 \over \pi}$
 
-Valor de x: 43.17778 
- 
-Valor de y: 48.12966 
- 
+tomando en cuenta una variación de ```180°``` o ```360°``` para cuando los valores de $x$ y/o $y$ son negativos
 
-Radio: 64.658989
-Ángulo: 48.104283
+### Ejemplo de uso
+```Octave
+exec ('test.sci', -1)
+
+--> [v, a] = cart(%pi, 2)
+ v  =
+
+   3.7241918
+ a  =
+
+   32.481637
 ```
